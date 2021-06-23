@@ -25,20 +25,21 @@ class _LoginPageState extends State<LoginPage> {
           children: [
             Container(
               width: size.width,
-              height: size.height * 0.36,
-              color: AppColors.primary,
+              height: size.height * 0.38,
+              decoration:
+                  BoxDecoration(gradient: AppColors.radialGradientLogin),
             ),
             Positioned(
-              top: 40,
+              top: 67,
               left: 0,
               right: 0,
               child: Image.asset(
-                AppImages.person,
-                height: 303,
+                AppImages.personIcon,
+                height: 373,
               ),
             ),
             Positioned(
-                top: 300,
+                top: 370,
                 left: 0,
                 right: 0,
                 child: Container(
@@ -47,7 +48,7 @@ class _LoginPageState extends State<LoginPage> {
                       BoxDecoration(gradient: AppColors.linerGradientLogin),
                 )),
             Positioned(
-              bottom: size.height * 0.03,
+              bottom: size.height * 0.1,
               left: 0,
               right: 0,
               child: Column(
