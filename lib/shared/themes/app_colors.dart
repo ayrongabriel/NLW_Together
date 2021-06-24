@@ -28,4 +28,12 @@ class AppColors {
     center: Alignment(0, 0.5),
     radius: 0.8,
   );
+  static final radialGradientAppBar = RadialGradient(
+    colors: [
+      Color(0xFFFFC380),
+      Color(0xFFFF941A),
+    ],
+    center: Alignment(0, 0.9),
+    radius: 1,
+  );
 }
